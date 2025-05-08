@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'spec_helper'
 require 'tmpdir'
 
@@ -5,9 +7,6 @@ describe PuppetFixtures::Fixtures do
   subject(:instance) { described_class.new(source_dir: source_dir) }
 
   let(:source_dir) { File.join('spec/fixtures/missing') }
-
-  describe '#clean' do
-  end
 
   describe '#download' do
     let(:logger) { double('Logger') }
