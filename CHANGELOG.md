@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.2.3](https://github.com/voxpupuli/puppet_fixtures/tree/2.2.3) (2026-08-05)
+
+[Full Changelog](https://github.com/voxpupuli/puppet_fixtures/compare/2.2.2...2.2.3)
+
+**Fixed bugs:**
+
+- Add tmpdir require statement [\#48](https://github.com/voxpupuli/puppet_fixtures/pull/48) ([h-haaks](https://github.com/h-haaks))
+
 ## [2.2.2](https://github.com/voxpupuli/puppet_fixtures/tree/2.2.2) (2026-05-27)
 
 [Full Changelog](https://github.com/voxpupuli/puppet_fixtures/compare/2.2.1...2.2.2)
