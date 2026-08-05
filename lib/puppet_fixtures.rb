@@ -3,6 +3,7 @@
 require 'fileutils'
 require 'json'
 require 'open3'
+require 'tmpdir'
 require 'yaml'
 
 # PuppetFixtures is a mechanism to download Puppet fixtures.
